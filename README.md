@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Documentacion prueba synerfy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicacion se creo con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts
 
-In the project directory, you can run:
+En la carpeta del proyecto ejecutar:
+
+## `npm install`
+
+Descargara e instalara todas las dependencias del package.json.
+
+## `dependencias`
+
+"@testing-library/jest-dom": "^5.16.0": Instala jest utlizada para realizar pruebas que afirmen varias cosas sobre el estado del DOM esta libreria es intalada y configurada por [Create React App](https://github.com/facebook/create-react-app).
+
+"@testing-library/react": "^11.2.7": Para trabajar con componentes de React esta libreria es intalada y configurada por [Create React App](https://github.com/facebook/create-react-app).
+
+"@testing-library/user-event": "^12.8.3": Es una biblioteca complementaria para Testing Library que proporciona una simulación más avanzada de las interacciones del navegador esta libreria es intalada y configurada por [Create React App](https://github.com/facebook/create-react-app).
+
+"materialize-css": "^1.0.0-rc.2": Dependencia utilizada para crear el diseño de la aplicacion al estilo material.
+
+"nodemailer-react": "^1.0.1": Este paquete tiene como objetivo simplificar el uso de Nodemailer para enviar emails, junto con las plantillas React.
+
+"react": "^17.0.2": React esta libreria es intalada y configurada por [Create React App](https://github.com/facebook/create-react-app)
+
+"react-dom": "^17.0.2": proporciona métodos específicos del DOM esta libreria es intalada y configurada por [Create React App](https://github.com/facebook/create-react-app)
+
+"react-router-dom": "^5.2.0": Dependencia utilizada para crear las rutas dentro de la aplicacion
+
+"react-scripts": "4.0.3": Este paquete incluye scripts y la configuración utilizados por Create React App esta libreria es intalada y configurada por [Create React App](https://github.com/facebook/create-react-app).
+
+"web-vitals": "^1.1.2": biblioteca modular para medir todas las métricas de Web Vitals en usuarios reales esta libreria es intalada y configurada por [Create React App](https://github.com/facebook/create-react-app)
+
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ejecuta la aplicación en el modo de desarrollo.
+Abre la ruta  [http://localhost:3000](http://localhost:3000) en el navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Cualquier cambio guardado en la aplicacion recargara la pagina.\
+Podra ver cualquier error en la consola.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Lanzara las pruebas creadas en el proyecto.\
+Ver [running tests](https://facebook.github.io/create-react-app/docs/running-tests) para mas informacion.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Construye la aplicación para producción en la carpeta `build`. \
+Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La compilación se minimiza y los nombres de archivo incluyen los hash. \
+¡Tu aplicación está lista para implementarse!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Mas informacion [deployment](https://facebook.github.io/create-react-app/docs/deployment).
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Nota: esta es una operacion de un solo sentido. una vez ejecutado `eject`, no puedes volver atras!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si no está satisfecho con la herramienta de compilación y las opciones de configuración, puede "expulsar" en cualquier momento. Este comando eliminará la dependencia de compilación única de su proyecto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+En su lugar, copiará todos los archivos de configuración y las dependencias transitivas (paquete web, Babel, ESLint, etc.) directamente en su proyecto para que tenga un control total sobre ellos. Todos los comandos excepto `eject` seguirán funcionando, pero apuntarán a los scripts copiados para que pueda modificarlos. En este punto, estás solo.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+No es necesario que utilices nunca "eject". El conjunto de funciones seleccionadas es adecuado para implementaciones pequeñas y medianas, y no debe sentirse obligado a utilizar esta función. Sin embargo, entendemos que esta herramienta no sería útil si no pudiera personalizarla cuando esté listo para usarla..
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
